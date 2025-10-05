@@ -2,10 +2,10 @@
 
 {{ partial "components/side_content.html" (dict "section" "single") }}
 
-{{- if site.Params.rtwt.side.single.showDetails -}}
+{{- if site.Params.lightning.side.single.showDetails -}}
   <div class="side-details">
-    <span>{{- .WordCount }} {{ i18n "details_words" -}}</span>
-    <span>{{- div (len .RawContent) 1096 }} - {{ div (len .RawContent) 860 }} {{ i18n "details_read_time" -}}</span>
+    {{/*  <span>{{- .WordCount }} {{ i18n "details_words" -}}</span>  */}}
+    <span class="dim">{{- div (len .RawContent) 1096 }} - {{ div (len .RawContent) 860 }} {{ i18n "details_read_time" -}}</span>
     {{- range $k, $v := site.Taxonomies -}}
       {{- if (and (ne $k "tags") (index page.Params $k)) -}}
       <div class="side-details-taxonomy">
@@ -22,12 +22,12 @@
 {{- end -}}
 
 {{- $hasToc := (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") -}}
-{{- if (and site.Params.rtwt.side.single.showTableOfContents $hasToc) -}}
+{{- if (and site.Params.lightning.side.single.showTableOfContents $hasToc) -}}
   <h3>{{- i18n "side_table_of_contents" -}}</h3>
   {{- .TableOfContents -}}
 {{- end -}}
 
-{{- if (and .Resources site.Params.rtwt.side.single.showAttachments) -}}
+{{- if (and .Resources site.Params.lightning.side.single.showAttachments) -}}
     <h3>{{- i18n "side_attachments" -}}</h3>
     <ul>
     {{- range .Resources -}}
@@ -36,8 +36,8 @@
     </ul>
 {{- end -}}
 
-{{- if site.Params.rtwt.side.single.showRelated -}}
-  {{- $related := .Site.RegularPages.Related . | first site.Params.rtwt.side.single.countRelated -}}
+{{- if site.Params.lightning.side.single.showRelated -}}
+  {{- $related := .Site.RegularPages.Related . | first site.Params.lightning.side.single.countRelated -}}
   {{- if $related -}}
     <h3>{{- i18n "side_related" -}}</h3>
     <ul>
@@ -46,4 +46,7 @@
     {{- end -}}
     </ul>
   {{- end -}}
+  <div style="text-align:center; padding: .5rem 0 0 0; border-top: 1px var(--dim-color) solid;">
+    <a href="#" style="font-size:.8em;">{{ i18n "scroll_top" }}</a>
+  </div>
 {{- end -}}
