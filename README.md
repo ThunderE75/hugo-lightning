@@ -78,7 +78,7 @@ The theme offers extensive configuration options through your site's `config.tom
 
 ### Front Matter Options
 
-```toml
+```yaml
 +++
 title = "Your Post Title"
 date = "2024-03-28"
@@ -99,7 +99,7 @@ You can customize the theme's appearance by creating a custom CSS file:
 3. The theme will automatically include your custom CSS
 4. You may take a look at `_root.css` for existing theme values and variables
 
-> If a css file starts with an undescore (_), it will be bundled with the theme default ones, which may affect caching behavior!
+> If a css file starts with an underscore (_), it will be bundled with the theme default ones, which may affect caching behavior!
 
 ### Layout Customization
 
@@ -109,3 +109,6 @@ The theme's templates can be overridden by creating corresponding files in your 
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## License
+
+This theme is licensed under the GNU GENERAL PUBLIC LICENSE Version 3. See the [LICENSE](LICENSE) file for more information.
