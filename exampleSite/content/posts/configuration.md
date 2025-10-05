@@ -15,10 +15,10 @@ The following configuration options can be added to your site's Hugo config file
 
 ```toml
 [rusty_typewriter]
- [params.rtwt]
+ [params.lightning]
   sidePane = true
   countPageItems = 7 
- [params.rtwt.home]
+ [params.lightning.home]
   showBio = true
   showAuthorImg = true
   sidePaneTags = true
@@ -26,13 +26,13 @@ The following configuration options can be added to your site's Hugo config file
   showRecent = true
   hideRecentWhenFeatured = true
   countRecent = 5
- [params.rtwt.side.home]
+ [params.lightning.side.home]
   sidePaneSticky = false 
   taxonomies = ['tags']
   countTaxonomy = 5
- [params.rtwt.side.list]
+ [params.lightning.side.list]
   sidePaneSticky = false
- [params.rtwt.side.single]
+ [params.lightning.side.single]
   sidePaneSticky = true 
   showDetails = true
   showTableOfContents = true
@@ -47,7 +47,7 @@ Some configurations are defined in the page frontmatter, they're as following.
 
 ```toml
 +++
-[rtwt]
+[lightning]
  sidePane = false
  sidePaneSticky = false
 +++

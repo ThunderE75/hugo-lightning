@@ -4,7 +4,7 @@ date = '2025-03-24T23:00:00-03:00'
 series = ['content','features']
 +++
 
-Some of the static content on the site, like the home greetings and side pane content, can be defined in the file at `data/rtwt/content.yaml`. The structure to do so is as follows:
+Some of the static content on the site, like the home greetings and side pane content, can be defined in the file at `data/lightning/content.yaml`. The structure to do so is as follows:
 
 > Note: It's possible to use file formats other than YAML, but the key structure must remain the same!
 

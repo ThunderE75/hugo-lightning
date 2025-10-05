@@ -1,12 +1,12 @@
-title = 'Rusty Typewriter'
-theme = 'rusty-typewriter'
+title = 'Hugo Lightning'
+theme = 'hugo-lightning'
 themesdir = '../..'
 
 languageCode = 'en-US'
 enableRobotsTXT = true
 
-# rtwt = Rusty Typewriter Theme
-[params.rtwt.side.home]
+# lightning = Lightning Theme
+[params.lightning.side.home]
 taxonomies = ['tags','series']
 countTaxonomy = 3
 

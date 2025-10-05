@@ -1,8 +1,12 @@
-# Lightning
 
-A minimalist and elegant Hugo theme styled towards a warm color pallete. Perfect for writers, bloggers, and content creators who appreciate a clean and distraction-free experience.
-
-![preview](https://raw.githubusercontent.com/math-queiroz/rusty-typewriter/main/images/screenshot.png)
+<div align="center">
+<h1>Hugo-Lightning</h1>
+<img alt="Lightning Icon" src="./static/favicon.svg" width=100px />
+<p>
+A re-imagined theme based on <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">math-queiroz/rusty-typewriter</a>, with inspirations from various other Hugo theme, Like <a href="https://github.com/cx48/NightFolio" target="_blank">cx48/NightFolio</a>
+& <a href="https://github.com/luizdepra/hugo-coder" target="_blank">luizdepra/Hugo-Coder</a>.
+</p>  
+</div>
 
 ## Features
 
@@ -27,7 +31,7 @@ cd my-blog
 2. Add the theme as a git submodule:
 ```bash
 git init
-git submodule add https://github.com/math-queiroz/rusty-typewriter.git themes/rusty-typewriter
+git submodule add https://github.com/ThunderE75/hugo-lightning.git themes/lightning
 ```
 
 3. Add the theme to your `hugo.toml`:
@@ -45,11 +49,11 @@ hugo server
 The theme offers extensive configuration options through your site's `config.toml` file. Here are the main settings:
 
 ```toml
-[params.rtwt]
+[params.lightning]
   sidePane = true
   countPageItems = 7
 
-[params.rtwt.home]
+[params.lightning.home]
   showBio = true
   showAuthorImg = true
   sidePaneTags = true
@@ -58,12 +62,12 @@ The theme offers extensive configuration options through your site's `config.tom
   hideRecentWhenFeatured = true
   countRecent = 5
 
-[params.rtwt.side.home]
+[params.lightning.side.home]
   sidePaneSticky = false
   taxonomies = ['tags']
   countTaxonomy = 5
 
-[params.rtwt.side.single]
+[params.lightning.side.single]
   sidePaneSticky = true
   showDetails = true
   showTableOfContents = true
@@ -79,9 +83,8 @@ The theme offers extensive configuration options through your site's `config.tom
 title = "Your Post Title"
 date = "2024-03-28"
 tags = ["tag1", "tag2"]
-topics = ["topic1"]
-my_taxonomies = ["value"]
 featured = true
+indexable = true
 +++
 ```
 
@@ -106,6 +109,3 @@ The theme's templates can be overridden by creating corresponding files in your 
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This theme is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
