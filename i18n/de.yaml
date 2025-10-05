@@ -1,0 +1,26 @@
+  theme_light: "Helles Thema"
+  theme_dark: "Dunkles Thema"
+
+  not_found_title: "Ups, Seite nicht gefunden!"
+  not_found_desc: "Nicht alle, die wandern, sind verloren, aber hier gibt es nichts mehr zu entdecken"
+  not_found_home_link: "Zur Startseite"
+
+  scroll_top: "Nach oben scrollen"
+  footer: "Gemacht mit ❤️ und betrieben vom {{ .ThemeAnchor }}-Theme für {{ .HugoAnchor }}"
+
+  featured_posts: "Empfohlene Beiträge"
+  recent_posts: "Neueste Beiträge"
+
+  js_required: "Es ist notwendig, JavaScript zu aktivieren"
+  search_loading: "Laden..."
+  search_placeholder: "Suchen..."
+
+  see_all: "Alle ansehen..."
+
+  breadcrumb_home: "Startseite"
+
+  details_words: "Wörter"
+  details_read_time: "Minuten Lesezeit"
+  side_table_of_contents: "Inhaltsverzeichnis"
+  side_attachments: "Anhänge"
+  side_related: "Ähnliche Beiträge"

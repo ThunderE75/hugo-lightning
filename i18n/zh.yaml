@@ -1,0 +1,26 @@
+  theme_light: "浅色主题"
+  theme_dark: "深色主题"
+
+  not_found_title: "哎呀，页面未找到！"
+  not_found_desc: "并非所有徘徊的人都迷失了，但这里已经没有什么可探索的了"
+  not_found_home_link: "返回首页"
+
+  scroll_top: "回到顶部"
+  footer: "由 ❤️ 制作，并由 {{ .ThemeAnchor }} 主题为 {{ .HugoAnchor }} 提供支持"
+
+  featured_posts: "精选文章"
+  recent_posts: "最新文章"
+
+  js_required: "必须启用 JavaScript"
+  search_loading: "加载中..."
+  search_placeholder: "搜索..."
+
+  see_all: "查看全部..."
+
+  breadcrumb_home: "首页"
+
+  details_words: "字"
+  details_read_time: "分钟阅读"
+  side_table_of_contents: "目录"
+  side_attachments: "附件"
+  side_related: "相关内容"

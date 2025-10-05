@@ -1,0 +1,26 @@
+  theme_light: "Tema claro"
+  theme_dark: "Tema oscuro"
+
+  not_found_title: "¡Vaya, página no encontrada!"
+  not_found_desc: "No todos los que vagan están perdidos, pero aquí no queda nada por explorar"
+  not_found_home_link: "Ir a inicio"
+
+  scroll_top: "Subir arriba"
+  footer: "Hecho con ❤️ y potenciado por el tema {{ .ThemeAnchor }} para {{ .HugoAnchor }}"
+
+  featured_posts: "Publicaciones destacadas"
+  recent_posts: "Publicaciones recientes"
+
+  js_required: "Es necesario habilitar JavaScript"
+  search_loading: "Cargando..."
+  search_placeholder: "Buscar..."
+
+  see_all: "Ver todo..."
+
+  breadcrumb_home: "Inicio"
+
+  details_words: "palabras"
+  details_read_time: "minutos de lectura"
+  side_table_of_contents: "Tabla de contenidos"
+  side_attachments: "Adjuntos"
+  side_related: "Relacionado"

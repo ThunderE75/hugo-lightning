@@ -1,0 +1,26 @@
+  theme_light: "Светлая тема"
+  theme_dark: "Тёмная тема"
+
+  not_found_title: "Упс, страница не найдена!"
+  not_found_desc: "Блуждающие не всегда потеряны, но здесь больше нечего исследовать"
+  not_found_home_link: "На главную"
+
+  scroll_top: "Наверх"
+  footer: "Сделано с ❤️ и работает на теме {{ .ThemeAnchor }} для {{ .HugoAnchor }}"
+
+  featured_posts: "Избранные записи"
+  recent_posts: "Последние записи"
+
+  js_required: "Необходимо включить JavaScript"
+  search_loading: "Загрузка..."
+  search_placeholder: "Поиск..."
+
+  see_all: "Смотреть все..."
+
+  breadcrumb_home: "Главная"
+
+  details_words: "слова"
+  details_read_time: "минут чтения"
+  side_table_of_contents: "Содержание"
+  side_attachments: "Вложения"
+  side_related: "Похожие"

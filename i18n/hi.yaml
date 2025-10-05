@@ -1,0 +1,35 @@
+# Root
+
+theme_light: "लाइट थीम"
+theme_dark: "डार्क थीम"
+
+# Not found (404)
+not_found_title: "अरे! पेज नहीं मिला!"
+not_found_desc: "सभी भटकने वाले खोए नहीं होते, लेकिन यहाँ खोजने के लिए कुछ नहीं है"
+not_found_home_link: "होम पर जाएं"
+
+# Footer
+scroll_top: "ऊपर जाएं"
+footer: "❤️ से बनाया गया और {{ .HugoAnchor }} के लिए {{ .ThemeAnchor }} थीम द्वारा संचालित"
+
+# Home
+featured_posts: "फ़ीचर्ड पोस्ट्स"
+recent_posts: "हाल की पोस्ट्स"
+
+# Search
+js_required: "जावास्क्रिप्ट सक्षम करना आवश्यक है"
+search_loading: "लोड हो रहा है..."
+search_placeholder: "खोजें..."
+
+# SidePane for home
+see_all: "सभी देखें..."
+
+# Page
+breadcrumb_home: "होम"
+
+# SidePane for single pages
+details_words: "शब्द"
+details_read_time: "मिनट पढ़ने का समय"
+side_table_of_contents: "विषय सूची"
+side_attachments: "संलग्नक"
+side_related: "संबंधित"
