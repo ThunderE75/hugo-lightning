@@ -14,13 +14,26 @@
         <main id="main-content">
           {{- block "main" . -}}{{- end -}}
         </main>
-        <footer id="main-footer">
+        {{/*  <footer id="main-footer">
           {{- partial "footer.html" . -}}
-        </footer>
+        </footer>  */}}
       </div>
       {{- if (and (default true .Params.lightning.sidePane) site.Params.lightning.sidePane) -}}
-        {{- block "side" . -}}{{- end -}}
+      {{- block "side" . -}}{{- end -}}
       {{- end -}}
+    </div>
+    {{- partial "newfooter.html" . -}}
+  </div>
+
+  {{/* Global image lightbox overlay */}}
+  <div id="image-lightbox" class="image-lightbox" aria-hidden="true">
+    <div class="image-lightbox__backdrop"></div>
+    <div class="image-lightbox__content" role="dialog" aria-modal="true">
+      <button class="image-lightbox__close" aria-label="Close image">
+        &times;
+      </button>
+      <img class="image-lightbox__img" alt="">
+      <div class="image-lightbox__caption"></div>
     </div>
   </div>
 </body>
