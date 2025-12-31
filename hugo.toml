@@ -25,7 +25,7 @@ enableEmoji = true
   category = "categories"
 
 [params]
-  defaultImage = "/images/favicon.svg"
+  defaultImage = "/images/lightning.svg"
   deploy_commit = ""
   deploy_ref = ""
   deploy_time = ""
@@ -40,13 +40,14 @@ enableEmoji = true
   footerPoweredBy = false
 
 [params.lightning.info]
+  authorImg = "/images/profile.jpg"
   authorName = "First-Name"
   authorFullName = "Full Name"
   username = "Username"
-  subHeading = "Computer Science Graduate"
-  subHeadingLocation = "from Somewhere, Earth"
+  subHeading = "hugo theme"
+  subHeadingLocation = "from City, Country"
   countryEmoji = "🌏"
-  currentOccupation = "Software Development Intern at"
+  currentOccupation = "Current Job at"
   companyName = "ACME"
   companyURL = "https://example.com/"
   copyrightStartYear = 2025
