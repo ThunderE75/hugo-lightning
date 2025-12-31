@@ -16,7 +16,7 @@ topic = 'topics'
 series = 'series'
 
 [params.author]
-name = 'Matheus Queiroz'
+name = 'Navneet Prakash Dubey'
 
 [[menus.main]]
 name = 'Posts'
