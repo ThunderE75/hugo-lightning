@@ -1,57 +1,94 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-US'
-title = 'My New Hugo Site'
+baseURL = "https://example.com/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+theme = "lightning"
+title = "Website Title"
+siteBanner = "images/banner.jpg"
+enableEmoji = true
 
-[rusty_typewriter]
- [params.lightning]
+[languages.en]
+  languageName = "English"
+  languageCode = "en-us"
+  weight = 1
+
+[outputFormats.SearchIndex]
+  mediaType = "application/json"
+  baseName = "searchindex"
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "SearchIndex"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+  defaultImage = "/images/favicon.svg"
+  deploy_commit = ""
+  deploy_ref = ""
+  deploy_time = ""
+
+[params.lightning]
   sidePane = true
-  countPageItems = 7 
-  searchPath = 'search'
- [params.lightning.home]
+  showSharelinks = true
+  showReplyByMail = true
+  countPageItems = 7
+  footerCommitAndTime = true
+  footerScrollToTop = true
+  footerPoweredBy = false
+
+[params.lightning.info]
+  authorName = "First-Name"
+  authorFullName = "Full Name"
+  username = "Username"
+  subHeading = "Computer Science Graduate"
+  subHeadingLocation = "from Somewhere, Earth"
+  countryEmoji = "🇮🇳"
+  currentOccupation = "Software Development Intern at"
+  companyName = "ACME"
+  companyURL = "https://example.com/"
+  copyrightStartYear = 2025
+
+[params.lightning.home]
   showBio = true
   showAuthorImg = true
+  showHomeBanner = false
   sidePaneTags = true
   showFeatured = true
   showRecent = true
   hideRecentWhenFeatured = true
   countRecent = 5
- [params.lightning.side.home]
-  sidePaneSticky = false 
-  taxonomies = ['tags']
-  countTaxonomy = 6
- [params.lightning.side.list]
+  showSocialLinks = true
+
+[params.lightning.side.home]
   sidePaneSticky = false
- [params.lightning.side.single]
-  sidePaneSticky = true 
+  taxonomies = ["tags"]
+  countTaxonomy = 5
+
+[params.lightning.side.single]
+  sidePaneSticky = true
   showDetails = true
   showTableOfContents = true
   showAttachments = true
   showRelated = true
   countRelated = 5
 
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 10
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts"
+  weight = 20
+
 [related]
- includeNewer = true
- [[related.indices]]
-  name = 'tags'
+  includeNewer = true
+
+[[related.indices]]
+  name = "tags"
   weight = 100
-
-[taxonomies]
- tag = 'tags'
-
-[params]
- summaryLength = 1
-
-[params.links]
- hugo = 'https://gohugo.io/'
- theme = 'https://github.com/math-queiroz/rusty-typewriter'
-
-[[menus.main]]
- name = 'Posts'
- pageRef = '/posts'
- weight = 1
-
-[module]
- [module.hugoVersion]
-  extended = false
-  min = "0.116.0"
-

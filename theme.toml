@@ -1,10 +1,10 @@
 name = 'Lightning'
-license = 'MIT'
-licenselink = 'https://github.com/math-queiroz/rusty-typewriter/LICENSE'
+license = 'GPL-3.0'
+licenselink = 'https://github.com/ThunderE75/hugo-lightning/blob/main/LICENSE'
 description = 'A reimagined hugo theme'
 
 homepage = 'https://github.com/ThunderE75/hugo-lightning'
-demosite = 'https://rusty-typewriter.netlify.app/demo'
+demosite = 'https://thundere75.github.io/'
 
 tags = ["responsive", "minimal", "blog"]
 features = ["blog", "themes", "search"]
