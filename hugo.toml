@@ -4,7 +4,6 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 theme = "lightning"
 title = "Website Title"
-siteBanner = "images/banner.jpg"
 enableEmoji = true
 
 [languages.en]
@@ -46,11 +45,12 @@ enableEmoji = true
   username = "Username"
   subHeading = "Computer Science Graduate"
   subHeadingLocation = "from Somewhere, Earth"
-  countryEmoji = "🇮🇳"
+  countryEmoji = "🌏"
   currentOccupation = "Software Development Intern at"
   companyName = "ACME"
   companyURL = "https://example.com/"
   copyrightStartYear = 2025
+  replyEmail = "hello@sample.com"
 
 [params.lightning.home]
   showBio = true
