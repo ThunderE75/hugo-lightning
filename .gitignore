@@ -1,1 +1,19 @@
-example-site/public
+/example-site/public
+example-site/public/
+/example-site/public/*
+
+# Ignore Hugo public output at repository root
+/public/
+/public/*
+
+example-site\public
+/public
+\public
+/public/*
+\public\*
+example-site\public\*
+/example-site\public
+/example-site\public/*
+/example-site\public/*
+/example-site\public\*
+

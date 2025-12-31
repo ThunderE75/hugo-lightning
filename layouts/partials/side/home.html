@@ -1,6 +1,6 @@
 {{- partial "search_bar.html" -}}
 
-{{ partial "components/side_content.html" (dict "section" "home") }}
+{{/*  {{ partial "components/side_content.html" (dict "section" "home") }}  */}}
 
 {{- range $filter := site.Params.lightning.side.home.taxonomies -}}
   {{- with (index site.Taxonomies $filter) -}}
