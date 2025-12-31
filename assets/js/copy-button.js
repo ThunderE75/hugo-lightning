@@ -1,0 +1,39 @@
+(function(){
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("pre > code").forEach((codeBlock) => {
+      const pre = codeBlock.parentNode;
+
+      // Prevent duplicate buttons if Hugo shortcode already added one
+      if (pre.querySelector(".copy-btn")) return;
+
+      // Wrap pre in a container if not already wrapped
+      let wrapper = pre.parentNode;
+      if (!wrapper.classList || !wrapper.classList.contains("code-block-wrapper")) {
+        wrapper = document.createElement("div");
+        wrapper.className = "code-block-wrapper";
+        pre.parentNode.insertBefore(wrapper, pre);
+        wrapper.appendChild(pre);
+      }
+
+      // Create button
+      const button = document.createElement("button");
+      button.className = "copy-btn";
+      button.innerHTML = 'Copy';
+
+      // Add click-to-copy behavior
+      button.addEventListener("click", () => {
+        navigator.clipboard.writeText(codeBlock.textContent).then(() => {
+          button.innerHTML = 'Copied';
+          setTimeout(() => {
+            button.innerHTML = 'Copy';
+          }, 2000);
+        });
+      });
+
+      wrapper.style.position = "relative";
+
+      // Insert button into wrapper instead of pre
+      wrapper.appendChild(button);
+    });
+  });
+})();
