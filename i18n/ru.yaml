@@ -24,3 +24,19 @@
   side_table_of_contents: "Содержание"
   side_attachments: "Вложения"
   side_related: "Похожие"
+
+  # Footer additions
+  footer_content_licensed_under: "Содержимое лицензируется по"
+  footer_tech_licensed_under: "Технология лицензируется по"
+  footer_view_deploy_commit: "Просмотреть коммит деплоя на GitHub"
+  footer_local_build: "Локально"
+  footer_local_build_title: "Локальная / нестандартная сборка"
+  footer_not_deployed_via_ci: "Не развернуто через CI"
+
+  language: "Язык"
+  about: "О сайте"
+  posts: "Посты"
+  resume: "Резюме"
+  socials: "Социальные"
+  guide: "Руководство"
+  software: "Программное обеспечение"

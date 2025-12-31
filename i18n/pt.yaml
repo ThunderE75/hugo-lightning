@@ -32,3 +32,19 @@ details_read_time: minutos de leitura
 side_table_of_contents: Tabela de Conteúdo
 side_attachments: Anexos
 side_related: Relacionados
+
+# Footer additions
+footer_content_licensed_under: Conteúdo licenciado sob
+footer_tech_licensed_under: Tecnologia licenciada sob
+footer_view_deploy_commit: Ver commit de implantação no GitHub
+footer_local_build: Local
+footer_local_build_title: Build local / sujo
+footer_not_deployed_via_ci: Não implantado via CI
+
+language: Idioma
+about: Sobre
+posts: Publicações
+resume: Currículo
+socials: Redes
+guide: Guia
+software: Software

@@ -24,3 +24,19 @@
   side_table_of_contents: "目录"
   side_attachments: "附件"
   side_related: "相关内容"
+
+  # Footer additions
+  footer_content_licensed_under: "内容授权于"
+  footer_tech_licensed_under: "技术授权于"
+  footer_view_deploy_commit: "在 GitHub 上查看部署提交"
+  footer_local_build: "本地"
+  footer_local_build_title: "本地 / 非正式 构建"
+  footer_not_deployed_via_ci: "未通过 CI 部署"
+
+  language: "语言"
+  about: "关于"
+  posts: "帖子"
+  resume: "简历"
+  socials: "社交"
+  guide: "指南"
+  software: "软件"

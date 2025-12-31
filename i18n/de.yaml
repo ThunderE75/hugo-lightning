@@ -24,3 +24,19 @@
   side_table_of_contents: "Inhaltsverzeichnis"
   side_attachments: "Anhänge"
   side_related: "Ähnliche Beiträge"
+
+  # Footer additions
+  footer_content_licensed_under: "Inhalt lizenziert unter"
+  footer_tech_licensed_under: "Technik lizenziert unter"
+  footer_view_deploy_commit: "Deploy-Commit auf GitHub ansehen"
+  footer_local_build: "Lokal"
+  footer_local_build_title: "Lokaler / unsauberer Build"
+  footer_not_deployed_via_ci: "Nicht via CI bereitgestellt"
+
+  language: "Sprache"
+  about: "Über"
+  posts: "Beiträge"
+  resume: "Lebenslauf"
+  socials: "Soziales"
+  guide: "Anleitung"
+  software: "Software"

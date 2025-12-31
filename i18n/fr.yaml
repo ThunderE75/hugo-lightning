@@ -24,3 +24,20 @@
   side_table_of_contents: "Table des matières"
   side_attachments: "Pièces jointes"
   side_related: "Articles liés"
+
+  # Footer additions (kept in French where possible)
+  footer_content_licensed_under: "Contenu sous licence"
+  footer_tech_licensed_under: "Technologie sous licence"
+  footer_view_deploy_commit: "Voir le commit de déploiement sur GitHub"
+  footer_local_build: "Local"
+  footer_local_build_title: "Build local / sale"
+  footer_not_deployed_via_ci: "Non déployé via CI"
+
+  # Misc (ensure parity with English keys)
+  language: "Langue"
+  about: "À propos"
+  posts: "Articles"
+  resume: "CV"
+  socials: "Réseaux"
+  guide: "Guide"
+  software: "Logiciel"

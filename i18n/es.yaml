@@ -24,3 +24,19 @@
   side_table_of_contents: "Tabla de contenidos"
   side_attachments: "Adjuntos"
   side_related: "Relacionado"
+
+  # Footer additions
+  footer_content_licensed_under: "Contenido con licencia"
+  footer_tech_licensed_under: "Tecnología con licencia"
+  footer_view_deploy_commit: "Ver commit de despliegue en GitHub"
+  footer_local_build: "Local"
+  footer_local_build_title: "Build local"
+  footer_not_deployed_via_ci: "No desplegado vía CI"
+
+  language: "Idioma"
+  about: "Acerca de"
+  posts: "Publicaciones"
+  resume: "Currículum"
+  socials: "Redes"
+  guide: "Guía"
+  software: "Software"
