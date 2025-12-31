@@ -20,7 +20,7 @@
   font-size: 14px;
 }
 
-.new-footer {
+.footer {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -34,7 +34,7 @@
 }
 
 @media (max-width: 768px) {
-  .new-footer {
+  .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -81,7 +81,7 @@
     display: none !important;
   }
 
-  .new-footer>div {
+  .footer>div {
     display: flex;
     justify-content: center;
     align-items: center;
