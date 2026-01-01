@@ -4,3 +4,5 @@ title = 'Lightning Theme'
 theme = 'lightning'
 themesdir = '../..'
 
+[markup.goldmark.renderer]
+unsafe= true # to enable raw HTML in markdown files

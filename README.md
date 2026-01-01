@@ -24,8 +24,8 @@ A re-imagined theme based on <a href="https://github.com/math-queiroz/rusty-type
 
 1. Create a new Hugo site:
 ```bash
-hugo new site my-blog
-cd my-blog
+hugo new site my-website
+cd my-website
 ```
 
 2. Add the theme as a git submodule:
@@ -51,20 +51,41 @@ The theme offers extensive configuration options through your site's `config.tom
 ```toml
 [params.lightning]
   sidePane = true
+  showSharelinks = true
+  showReplyByMail = true
   countPageItems = 7
+  footerCommitAndTime = true
+  footerScrollToTop = true
+  footerPoweredBy = false
+
+[params.lightning.info]
+  authorImg = "/images/profile.jpg"
+  authorName = "First-Name"
+  authorFullName = "Full Name"
+  username = "Username"
+  subHeading = "hugo theme"
+  subHeadingLocation = "from City, Country"
+  countryEmoji = "🌏"
+  currentOccupation = "Current Job at"
+  companyName = "ACME"
+  companyURL = "https://example.com/"
+  copyrightStartYear = 2025
+  replyEmail = "hello@sample.com"
 
 [params.lightning.home]
   showBio = true
   showAuthorImg = true
+  showHomeBanner = false
   sidePaneTags = true
   showFeatured = true
   showRecent = true
   hideRecentWhenFeatured = true
   countRecent = 5
+  showSocialLinks = true
 
 [params.lightning.side.home]
   sidePaneSticky = false
-  taxonomies = ['tags']
+  taxonomies = ["tags"]
   countTaxonomy = 5
 
 [params.lightning.side.single]
@@ -81,13 +102,15 @@ The theme offers extensive configuration options through your site's `config.tom
 ```yaml
 +++
 title = "Your Post Title"
-date = "2024-03-28"
+date = "2025-12-31"
 tags = ["tag1", "tag2"]
 featured = true
 indexable = true
+draft = true
+image = "This is visible in link preview"
+description = 'This is visible in link preview'
 +++
 ```
-
 ## Customization
 
 ### CSS Customization

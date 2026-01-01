@@ -42,8 +42,5 @@ code {
   line-height: 1;
   font-family: monospace, monospace;
   border-radius: 1px;
-  line-height: 1.2;           /* keeps it tight */
-  /* vertical-align: middle;      */
-  box-shadow: 0 4px 0px hsla(0, 2%, 19%, 1);
-    
+  line-height: 1.2;    
 }
