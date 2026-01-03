@@ -22,10 +22,10 @@
       {{- block "side" . -}}{{- end -}}
       {{- end -}}
     </div>
-    {{- partial "footer.html" . -}}
+    <footer class="footer">
+      {{- partial "footer.html" . -}}
+    </footer>
   </div>
-
-  {{/* Global image lightbox overlay */}}
   <div id="image-lightbox" class="image-lightbox" aria-hidden="true">
     <div class="image-lightbox__backdrop"></div>
     <div class="image-lightbox__content" role="dialog" aria-modal="true">
